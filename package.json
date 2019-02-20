@@ -28,14 +28,14 @@
     "build:html": "cpx src/lib/perfect-scrollbar.component.html dist/lib/",
     "bundle:es5": "rollup -c config/rollup-es5.config.js --silent",
     "bundle:umd": "rollup -c config/rollup-umd.config.js --silent",
-    "minify:umd": "terser bundles/$npm_package_name.umd.js -o bundles/$npm_package_name.umd.min.js --source-map=\"filename=bundles/$npm_package_name.umd.min.js.map\""
+    "minify:umd": "terser bundles/ngx-perfect-scrollbar.umd.js -o bundles/ngx-perfect-scrollbar.umd.min.js --source-map=\"filename=bundles/ngx-perfect-scrollbar.umd.min.js.map\""
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ms-dosx86/ngx-perfect-scrollbar"
   },
   "dependencies": {
-    "not-perfect-scrollbar": "^1.0.0",
+    "not-perfect-scrollbar": "^1.0.1",
     "resize-observer-polyfill": "^1.5.0"
   },
   "devDependencies": {

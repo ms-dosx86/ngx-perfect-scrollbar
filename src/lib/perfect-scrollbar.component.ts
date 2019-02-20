@@ -18,7 +18,7 @@ import { PerfectScrollbarEvent, PerfectScrollbarEvents,
   templateUrl: '../../dist/lib/perfect-scrollbar.component.html',
   styleUrls: [
     '../../dist/lib/perfect-scrollbar.component.css',
-    '../../node_modules/perfect-scrollbar/css/perfect-scrollbar.css'
+    '../../node_modules/not-perfect-scrollbar/css/perfect-scrollbar.css'
   ],
   encapsulation: ViewEncapsulation.None
 })

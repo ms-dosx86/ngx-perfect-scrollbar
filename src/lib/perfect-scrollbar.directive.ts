@@ -1,4 +1,4 @@
-import PerfectScrollbar from 'perfect-scrollbar';
+import PerfectScrollbar from 'not-perfect-scrollbar';
 
 import ResizeObserver from 'resize-observer-polyfill';
 
