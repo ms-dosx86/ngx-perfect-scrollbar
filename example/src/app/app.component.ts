@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 
 import { PerfectScrollbarConfigInterface,
-  PerfectScrollbarComponent, PerfectScrollbarDirective } from 'ngx-perfect-scrollbar';
+  PerfectScrollbarComponent, PerfectScrollbarDirective } from 'ngx-not-perfect-scrollbar';
 
 @Component({
   selector: 'my-app',
