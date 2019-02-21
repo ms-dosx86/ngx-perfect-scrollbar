@@ -24,7 +24,7 @@ module.exports = {
     filename: '[name].js',
     sourceMapFilename: '[name].css.map',
     path: path.join(__dirname, '../dist'),
-    publicPath: 'https://zefoy.github.io/ngx-perfect-scrollbar/'
+    publicPath: 'https://zefoy.github.io/ngx-not-perfect-scrollbar/'
   },
   module: {
     rules: [

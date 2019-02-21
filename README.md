@@ -1,16 +1,16 @@
 # Angular Perfect Scrollbar
 
-<a href="https://badge.fury.io/js/ngx-perfect-scrollbar"><img src="https://badge.fury.io/js/ngx-perfect-scrollbar.svg" align="right" alt="npm version" height="18"></a>
+<a href="https://badge.fury.io/js/ngx-not-perfect-scrollbar"><img src="https://badge.fury.io/js/ngx-not-perfect-scrollbar.svg" align="right" alt="npm version" height="18"></a>
 
 This is an Angular wrapper library for the [Perfect Scrollbar](https://utatti.github.io/perfect-scrollbar/). To use this library you should get familiar with the Perfect Scrollbar documentation as well since this documentation only explains details specific to this wrapper.
 
-This documentation is for the latest 5/6.x.x version which requires Angular 5 or newer. For Angular 4 you need to use the latest 4.x.x version. Documentation for the 4.x.x can be found from <a href="https://github.com/zefoy/ngx-perfect-scrollbar/tree/4.x.x/">here</a>.
+This documentation is for the latest 5/6.x.x version which requires Angular 5 or newer. For Angular 4 you need to use the latest 4.x.x version. Documentation for the 4.x.x can be found from <a href="https://github.com/zefoy/ngx-not-perfect-scrollbar/tree/4.x.x/">here</a>.
 
 ### Quick links
 
-[Example application](https://zefoy.github.io/ngx-perfect-scrollbar/)
+[Example application](https://zefoy.github.io/ngx-not-perfect-scrollbar/)
  |
-[StackBlitz example](https://stackblitz.com/github/zefoy/ngx-perfect-scrollbar/tree/master/example)
+[StackBlitz example](https://stackblitz.com/github/zefoy/ngx-not-perfect-scrollbar/tree/master/example)
  |
 [Perfect Scrollbar documentation](https://github.com/utatti/perfect-scrollbar/)
 
@@ -35,13 +35,13 @@ npm start
 ```bash
 npm link
 cd example
-npm link ngx-perfect-scrollbar
+npm link ngx-not-perfect-scrollbar
 ```
 
 ### Installing and usage
 
 ```bash
-npm install ngx-perfect-scrollbar --save
+npm install ngx-not-perfect-scrollbar --save
 ```
 
 ##### Load the module for your app (with global configuration):
@@ -49,9 +49,9 @@ npm install ngx-perfect-scrollbar --save
 Providing the global configuration is optional and when used you should only provide the configuration in your root module.
 
 ```javascript
-import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
-import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
-import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
+import { PerfectScrollbarModule } from 'ngx-not-perfect-scrollbar';
+import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-not-perfect-scrollbar';
+import { PerfectScrollbarConfigInterface } from 'ngx-not-perfect-scrollbar';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true

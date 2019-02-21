@@ -1,12 +1,12 @@
 {
   "name": "ngx-not-perfect-scrollbar",
   "description": "Angular wrapper library for Perfect Scrollbar",
-  "bugs": "https://github.com/ms-dosx86/ngx-perfect-scrollbar/issues",
+  "bugs": "https://github.com/ms-dosx86/ngx-not-perfect-scrollbar/issues",
   "license": "MIT",
-  "version": "1.0.2",
-  "main": "./bundles/ngx-perfect-scrollbar.umd.js",
-  "module": "./dist/ngx-perfect-scrollbar.es5.js",
-  "typings": "./dist/ngx-perfect-scrollbar.d.ts",
+  "version": "1.0.3",
+  "main": "./bundles/ngx-not-perfect-scrollbar.umd.js",
+  "module": "./dist/ngx-not-perfect-scrollbar.es5.js",
+  "typings": "./dist/ngx-not-perfect-scrollbar.d.ts",
   "tslint": {
     "extends": "./tslint.json"
   },
@@ -28,11 +28,11 @@
     "build:html": "cpx src/lib/perfect-scrollbar.component.html dist/lib/",
     "bundle:es5": "rollup -c config/rollup-es5.config.js --silent",
     "bundle:umd": "rollup -c config/rollup-umd.config.js --silent",
-    "minify:umd": "terser bundles/ngx-perfect-scrollbar.umd.js -o bundles/ngx-perfect-scrollbar.umd.min.js --source-map=\"filename=bundles/ngx-perfect-scrollbar.umd.min.js.map\""
+    "minify:umd": "terser bundles/ngx-not-perfect-scrollbar.umd.js -o bundles/ngx-not-perfect-scrollbar.umd.min.js --source-map=\"filename=bundles/ngx-not-perfect-scrollbar.umd.min.js.map\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ms-dosx86/ngx-perfect-scrollbar"
+    "url": "https://github.com/ms-dosx86/ngx-not-perfect-scrollbar"
   },
   "dependencies": {
     "not-perfect-scrollbar": "^1.0.3",
